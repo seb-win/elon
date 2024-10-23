@@ -32,7 +32,7 @@ def upload_to_gcs(bucket_name, folder_name, source_file_name, destination_blob_n
 
 # Example: Create a sample file and upload it to GCS
 bucket_name = 'work_for_elon'
-folder_name = 'upload_test'  # Folder within the bucket
+folder_name = 'spacex'  # Folder within the bucket
 source_file_name = 'example_upload.txt'
 destination_blob_name = 'example_upload.txt'
 
